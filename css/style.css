@@ -1183,10 +1183,21 @@ nav {
 }
 
 @media (max-width: 375px) {
-        .rhombus-border {
-        width: 260px;
-        height: 260px;
+    .rhombus-img, .rhombus-border, .rhombus-glow {
+        width: 200px;
+        height: 200px;
+    }
+
+    .rhombus-border {
         left: 5%;
+    }
+
+    .contact-content, .properties-grid, .sold-cards{
+        display: block;
+    }
+
+    .sold-card, .property-card {
+        margin-bottom: 2rem;
     }
 }
 
