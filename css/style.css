@@ -669,10 +669,10 @@ nav {
 
 .rhombus-img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    height: 400px;
+    top: 55%;
+    left: 47%;
+    width: 300px;
+    height: 300px;
     transform: translate(-50%, -50%) rotate(45deg);
     overflow: hidden;
     animation: floatAnimation 6s ease-in-out infinite;
@@ -692,10 +692,10 @@ nav {
 
 .rhombus-border {
     position: absolute;
-    top: 10%;
-    left: 4%;
-    width: 410px;
-    height: 410px;
+    top: 20%;
+    left: 19%;
+    width: 310px;
+    height: 310px;
     border: 2px solid var(--secondary-color);
     transform: translate(-50%, -50%) rotate(45deg);
     opacity: 0.5;
@@ -706,8 +706,8 @@ nav {
     position: absolute;
     top: 10%;
     left: 4%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     transform: translate(-50%, -50%) rotate(45deg);
     background: radial-gradient(circle at 50% 50%, 
         rgba(200, 184, 138, 0.2) 0%, 
@@ -775,6 +775,7 @@ nav {
     .rhombus-border {
         width: 310px;
         height: 310px;
+        left: 25%;
     }
 
     .rhombus-glow {
@@ -796,6 +797,7 @@ nav {
     .rhombus-border {
         width: 260px;
         height: 260px;
+        left: 19%;
     }
 
     .rhombus-glow {
@@ -1177,6 +1179,14 @@ nav {
 
     .section-header h2 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+        .rhombus-border {
+        width: 260px;
+        height: 260px;
+        left: 5%;
     }
 }
 
