@@ -9,7 +9,6 @@ hamburger.addEventListener('click', () => {
 
 // Carousel functionality
 function initCarousel() {
-    console.log('Initializing carousel...');
     const carousel = document.querySelector('.carousel');
     if (!carousel) {
         console.error('Carousel container not found');

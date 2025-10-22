@@ -928,7 +928,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(46, 125, 50, 0.1);
+    /* background: rgba(46, 125, 50, 0.1); */
     border-radius: 50%;
     transition: var(--transition);
 }
